@@ -1,8 +1,8 @@
 # headless-chrome-node-docker
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/geekykaran/headless-chrome-node-docker.svg)](https://store.docker.com/community/images/geekykaran/headless-chrome-node-docker/tags) [![Docker Pulls](https://img.shields.io/docker/stars/geekykaran/headless-chrome-node-docker.svg)](https://store.docker.com/community/images/geekykaran/headless-chrome-node-docker/tags)
+[![Docker Pulls](https://img.shields.io/docker/pulls/madve2/headless-chrome-node-docker.svg)](https://store.docker.com/community/images/madve2/headless-chrome-node-docker/tags) [![Docker Pulls](https://img.shields.io/docker/stars/madve2/headless-chrome-node-docker.svg)](https://store.docker.com/community/images/madve2/headless-chrome-node-docker/tags)
 
-Provides a Docker image with out of the box support for the recent release of [cross-platform Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome)(62.0.3198.0 dev), [Node](https://nodejs.org/)(node: 8.4.0, npm: 5.3.0) and [Yarn](https://yarnpkg.com)(0.27.5)
+Provides a Docker image with out of the box support for the recent release of [cross-platform Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) and [Node](https://nodejs.org/)(currently 12.13.1).
 
 
 # Usage
@@ -10,7 +10,7 @@ Provides a Docker image with out of the box support for the recent release of [c
 ```
 # Dockerfile
 
-FROM geekykaran/headless-chrome-node-docker:latest
+FROM madve2/headless-chrome-node-docker:latest
 
 CMD ["sh", "start-chrome.sh"]
 ```
@@ -30,9 +30,9 @@ After building your docker image and running a container with it, you can connec
 
 # Image Size
 
-177 MB compressed as of [last build](https://hub.docker.com/r/geekykaran/headless-chrome-node-docker/tags/)
+199 MB compressed as of [last build](https://hub.docker.com/r/madve2/headless-chrome-node-docker/tags/)
 
 
 # License
 
-MIT © [Karan Thakkar](https://karanjthakkar.com)
+MIT © [Karan Thakkar](https://karanjthakkar.com), Dániel Kis-Nagy
