@@ -2,7 +2,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/madve2/headless-chrome-node-docker.svg)](https://store.docker.com/community/images/madve2/headless-chrome-node-docker/tags) [![Docker Pulls](https://img.shields.io/docker/stars/madve2/headless-chrome-node-docker.svg)](https://store.docker.com/community/images/madve2/headless-chrome-node-docker/tags)
 
-Provides a Docker image with out of the box support for the recent release of [cross-platform Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) and [Node](https://nodejs.org/)(currently 12.13.1).
+Provides a Docker image with out of the box support for the recent release of [cross-platform Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) and [Node](https://nodejs.org/)(currently 16.17.0).
 
 
 # Usage
